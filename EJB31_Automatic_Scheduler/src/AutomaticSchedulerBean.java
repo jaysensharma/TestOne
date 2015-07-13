@@ -6,10 +6,10 @@ import javax.ejb.Schedule;
 @Stateless(name="AutomaticSchedulerBean")
 public class AutomaticSchedulerBean
  {
-     @Schedule(dayOfWeek = "*", hour = "*", minute = "*", second = "*/5",year="2012", persistent = false)
+     @Schedule(dayOfWeek = "*", hour = "*", minute = "*", second = "*/1",year="*", persistent = false)
      public void backgroundProcessing()
 	    {
-		   System.out.println("\n\n\t AutomaticSchedulerBean's backgroundProcessing() called....at: "+new Date());
+		   System.out.println("\n\n\t *** AutomaticSchedulerBean's backgroundProcessing() called....at: "+new Date());
 	    }
  }
 
