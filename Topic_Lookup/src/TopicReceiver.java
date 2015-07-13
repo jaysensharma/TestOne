@@ -58,7 +58,7 @@ public class TopicReceiver implements MessageListener {
         InitialContext ic = getInitialContext("remote://localhost:4447");
         TopicReceiver topicReceiver = new TopicReceiver();
         topicReceiver.init(ic, TOPIC);
-        System.out.println("JMS Ready To Receive Messages (To quit, send a \"quit\" message from TopicPublisher.class).");
+        System.out.println("*******************JMS Ready To Receive Messages (To quit, send a \"quit\" message from TopicPublisher.class).");
         synchronized (topicReceiver) {
             while (!topicReceiver.quit) {
                 try {
