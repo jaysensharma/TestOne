@@ -9,7 +9,7 @@ public class AutomaticSchedulerBean
      @Schedule(dayOfWeek = "*", hour = "*", minute = "*", second = "*/1",year="*", persistent = false)
      public void backgroundProcessing()
 	    {
-		   System.out.println("\n\n\t ***###$$$$ AutomaticSchedulerBean's backgroundProcessing() called....at: "+new Date());
+		   System.out.println("\n\n\t[Jenkins Test] AutomaticSchedulerBean's backgroundProcessing() called....at: "+new Date());
 	    }
  }
 
