@@ -13,7 +13,7 @@ public class HelloServlet extends HttpServlet {
    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
       Writer writer = resp.getWriter();
       writer.write("<html><body>");
-      writer.write("<font color=maroon><h1>Hello World !!!</h1></font> (from HelloServlet)");
+      writer.write("<font color=green><h1>*Hello World !!!*</h1></font> (from HelloServlet)");
       writer.write("</body></html>");
    }
 }
