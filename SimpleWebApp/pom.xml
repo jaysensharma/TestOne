@@ -96,7 +96,7 @@
                 <configuration>
                     <jboss-home>/Users/jsensharma/NotBackedUp/Dev_Stuff/Servers/jboss-eap-6.4</jboss-home>
                     <modules-path>/Users/jsensharma/NotBackedUp/Dev_Stuff/Servers/jboss-eap-6.4/modules</modules-path>
-                    <port>9999</port>
+                    <port>10499</port>
                 </configuration>
             </plugin>
 
