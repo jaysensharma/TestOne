@@ -94,8 +94,8 @@
                 <artifactId>jboss-as-maven-plugin</artifactId>
                 <version>7.7.Final</version>
                 <configuration>
-                    <jboss-home>/home/jsensharma/NotBackedUp/DELETE/JBoss_WildFly/jboss-eap-6.4.0</jboss-home>
-                    <modules-path>/home/jsensharma/NotBackedUp/DELETE/JBoss_WildFly/jboss-eap-6.4.0/modules</modules-path>
+                    <jboss-home>/Users/jsensharma/NotBackedUp/Dev_Stuff/Servers/jboss-eap-6.4</jboss-home>
+                    <modules-path>/Users/jsensharma/NotBackedUp/Dev_Stuff/Servers/jboss-eap-6.4/modules</modules-path>
                     <port>9999</port>
                 </configuration>
             </plugin>
