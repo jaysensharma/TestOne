@@ -10,7 +10,6 @@
     "issuetype",
     "components",
     "resolution",
-    "versions",
     "fixVersions",
     "versions",
     "project",
