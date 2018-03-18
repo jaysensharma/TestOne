@@ -12,6 +12,7 @@
     "resolution",
     "fixVersions",
     "versions",
+    "versionsA",
     "project",
     "created",
     "updated"
