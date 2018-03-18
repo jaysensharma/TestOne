@@ -1,0 +1,20 @@
+{
+  "jql": "'Names' = 'test' AND (createdDate <= '2017/03/20' AND createdDate >= '2017/01/20')",
+  "startAt": 0,
+  "maxResults": 10,
+  "fields": [
+    "id",
+    "key",
+    "summary",
+    "status",
+    "issuetype",
+    "components",
+    "resolution",
+    "versions",
+    "fixVersions",
+    "versions",
+    "project",
+    "created",
+    "updated"
+  ]
+}
